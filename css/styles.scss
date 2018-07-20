@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    background-color: #21315a;
+    color: #fff;
+    font-family: "brandon-grotesque",sans-serif;
+}
+.container{
+    // border: 1px dashed red;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    h1{
+        margin: 0 50px;
+        font-size: 50px;
+    }
+    p{
+        margin: 0 50px;
+        font-size: 20px;
+    }
+}
+.row{
+    width: 100%;
+}
+.top-section{
+    margin-top: 40px;
+}
+.social{
+    // border: 1px dashed red;
+    margin: 20px;
+    font-size: 28px;
+
+    i{
+        margin: 0px 5px;
+    }
+    a{
+        color: inherit;
+    }
+}
+@media only screen and (max-width: 800px){
+    .gif{
+        width: 100%;
+    }
+}
