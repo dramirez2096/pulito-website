@@ -7,7 +7,7 @@ body {
 
 .container {
   width: 100vw;
-  max-height: 100vh;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -15,20 +15,25 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   text-align: center;
 }
 
 .container h1 {
-  margin: 0;
+  margin: 0 50px;
   font-size: 42px;
 }
 
 .container p {
   margin: 0 50px;
   font-size: 20px;
+}
+
+.row {
+  width: 100%;
+}
+
+.top-section {
+  margin-top: 40px;
 }
 
 .social {
@@ -42,5 +47,11 @@ body {
 
 .social a {
   color: inherit;
+}
+
+@media only screen and (max-width: 800px) {
+  .gif {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
