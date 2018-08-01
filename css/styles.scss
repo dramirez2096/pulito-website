@@ -1,20 +1,15 @@
 body{
     margin: 0;
-    // background-color: #21315a;
-    // color: #fff;
     font-family: 'Lato', sans-serif;
 }
 .container{
-    // border: 1px dashed red;
     width: 100vw;
-    // height: 100vh;
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 .header{
-    // border: 1px dashed blue;
-    height: 95vh;
+    height: 100vh;
     width: 100%;
     background-image: linear-gradient(
         to right bottom,
@@ -23,33 +18,46 @@ body{
         ,url(../img/header-bg.jpg);
     background-size: 100%;
     background-position: center center;
-    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 95%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body{
+    // border: 2px dashed salmon;
+    padding: 0px 40px;
 }
 .about{
-    margin-top: 30px;
+    // border: 1px dashed red;
+    margin: 10px 0px 40px 0px;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 50%)
-    // height: 200px;
+    // grid-template-columns: repeat(2, 50%);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 40px;
 }
 .about-col{
-    height: 350px;
+    // border: 1px dashed blue;
+    // height: 375px;
+    
 }
 .text{
-    // border: 1px dashed salmon;
-    padding: 0px 30px;
+
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 18px;
+        font-weight: 300;
+    }
 }
 .video{
-    // border: 1px dashed green;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .social{
-    // border: 1px dashed red;
-    // margin: 20px;
     font-size: 28px;
 
     i{
@@ -59,8 +67,11 @@ body{
         color: inherit;
     }
 }
-@media only screen and (max-width: 800px){
-    .gif{
-        width: 100%;
+
+@media only screen and (max-width: 450px) {
+    .header{
+        img{
+            width: 300px;
+        }
     }
 }
