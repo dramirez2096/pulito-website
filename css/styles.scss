@@ -1,13 +1,13 @@
 body{
     margin: 0;
-    background-color: #21315a;
+    // background-color: #21315a;
     color: #fff;
     font-family: "brandon-grotesque",sans-serif;
 }
 .container{
-    // border: 1px dashed red;
+    border: 1px dashed red;
     width: 100vw;
-    height: 100vh;
+    // height: 100vh;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -21,15 +21,23 @@ body{
         font-size: 20px;
     }
 }
-.row{
+.header{
+    // border: 1px dashed blue;
+    height: 95vh;
     width: 100%;
+    background-image: linear-gradient(
+        to right bottom,
+        hsla(157, 62%, 47%, 0.8),
+        hsla(166, 62%, 47%, 0.8))
+        ,url(../img/header-bg.jpg);
+    background-size: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+
 }
-.top-section{
-    margin-top: 40px;
-}
+
 .social{
     // border: 1px dashed red;
-    margin: 20px;
+    // margin: 20px;
     font-size: 28px;
 
     i{
