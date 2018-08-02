@@ -1,6 +1,19 @@
+.margin-btwn {
+  margin-bottom: 100px;
+}
+
 body {
   margin: 0;
   font-family: 'Lato', sans-serif;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
 }
 
 .container {
@@ -20,8 +33,9 @@ body {
   width: 100%;
   background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(46, 194, 137, 0.8)), to(rgba(46, 194, 159, 0.8))), url(../img/header-bg.jpg);
   background-image: linear-gradient(to right bottom, rgba(46, 194, 137, 0.8), rgba(46, 194, 159, 0.8)), url(../img/header-bg.jpg);
-  background-size: 100%;
+  background-size: cover;
   background-position: center center;
+  background-attachment: fixed;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 95%);
           clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 95%);
   display: -webkit-box;
@@ -40,22 +54,13 @@ body {
 }
 
 .about {
-  margin: 10px 0px 40px 0px;
+  margin-top: 10px;
   width: 100%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 40px;
-}
-
-.text h2 {
-  font-size: 30px;
-}
-
-.text p {
-  font-size: 18px;
-  font-weight: 300;
 }
 
 .video {
@@ -68,6 +73,24 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.features {
+  border: 1px dashed burlywood;
+}
+
+.cards {
+  border: 1px dashed blue;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+.cards-col {
+  border: 1px dashed lime;
+  height: 100px;
 }
 
 .social {
