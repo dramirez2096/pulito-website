@@ -34,7 +34,7 @@ body{
     display: grid;
     // grid-template-columns: repeat(2, 50%);
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 40px;
+    grid-gap: 20px;
 }
 .about-col{
     // border: 1px dashed blue;
@@ -55,6 +55,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.pics{
+    img{
+    width: 70%;
+    }
 }
 
 .social{
