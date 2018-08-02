@@ -1,6 +1,8 @@
 // GLOBAL STYLES
+$pulito-green: #2EC19E;
+
 .margin-btwn{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 body{
@@ -44,8 +46,7 @@ p{
     justify-content: center;
 }
 
-.body{
-    // border: 2px dashed salmon;
+.padding-wrapper{
     padding: 0px 40px;
 }
 
@@ -71,19 +72,37 @@ p{
 }
 
 .features{
-    border: 1px dashed burlywood;
+
+    // background-color: $pulito-green;
+    background-image: linear-gradient(
+        to right bottom,
+        hsla(157, 62%, 47%, 0.8),
+        hsla(166, 62%, 47%, 0.8))
+        ,url(../img/header-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #fff;
+
+    h2{
+        margin-top: 80px;
+    }
+    
 }
 
 .cards{
-    border: 1px dashed blue;
+    // border: 1px dashed blue;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
 }
 
 .cards-col{
-    border: 1px dashed lime;
-    height: 100px;
+    // border: 1px dashed lime;
+    padding: 0px;
+    margin-bottom: 60px;
+    // height: 100px;
 }
 
 .social{

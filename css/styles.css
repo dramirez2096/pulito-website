@@ -1,5 +1,5 @@
 .margin-btwn {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 body {
@@ -49,7 +49,7 @@ p {
           justify-content: center;
 }
 
-.body {
+.padding-wrapper {
   padding: 0px 40px;
 }
 
@@ -75,26 +75,35 @@ p {
           justify-content: center;
 }
 
+.pics img {
+  width: 70%;
+}
+
 .features {
-  border: 1px dashed burlywood;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(46, 194, 137, 0.8)), to(rgba(46, 194, 159, 0.8))), url(../img/header-bg.jpg);
+  background-image: linear-gradient(to right bottom, rgba(46, 194, 137, 0.8), rgba(46, 194, 159, 0.8)), url(../img/header-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.features h2 {
+  margin-top: 80px;
 }
 
 .cards {
-  border: 1px dashed blue;
   width: 100%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
 }
 
 .cards-col {
-  border: 1px dashed lime;
-  height: 100px;
-}
-
-.pics img {
-  width: 70%;
+  padding: 0px;
+  margin-bottom: 60px;
 }
 
 .social {
