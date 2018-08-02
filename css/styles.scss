@@ -19,13 +19,20 @@ p{
     font-weight: 300;
 }
 
+.padding-wrapper{
+    padding: 0px 40px;
+}
+
 // INDIVIDUAL STYLES
+
 .container{
     width: 100vw;
     display: flex;
     flex-direction: column;
     text-align: center;
 }
+
+// HEADER STYLES
 
 .header{
     height: 100vh;
@@ -39,41 +46,34 @@ p{
     background-position: center center;
     background-attachment: fixed;
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 95%);
-    // -webkit-mask-image: url("img/trees.jpg");
-    // mask-image: url("img/trees.jpg");
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.padding-wrapper{
-    padding: 0px 40px;
-}
+//  ABOUT STYLES
 
 .about{
-    // border: 1px dashed red;
     margin-top: 10px;
     width: 100%;
     display: grid;
-    // grid-template-columns: repeat(2, 50%);
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 20px;
 }
 
-.video{
+.pics{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.pics{
+
     img{
-    width: 70%;
+        width: 70%;
     }
 }
 
-.features{
+//  FEATURES SECTION SYLES
 
-    // background-color: $pulito-green;
+.features{
     background-image: linear-gradient(
         to right bottom,
         hsla(157, 62%, 47%, 0.8),
@@ -90,19 +90,16 @@ p{
     
 }
 
-.cards{
-    // border: 1px dashed blue;
+.feat-list{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 40px;
 }
 
-.cards-col{
-    // border: 1px dashed lime;
+.feat-col{
     padding: 0px;
     margin-bottom: 60px;
-    // height: 100px;
 }
 
 .social{

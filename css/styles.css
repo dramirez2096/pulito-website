@@ -16,6 +16,10 @@ p {
   font-weight: 300;
 }
 
+.padding-wrapper {
+  padding: 0px 40px;
+}
+
 .container {
   width: 100vw;
   display: -webkit-box;
@@ -49,10 +53,6 @@ p {
           justify-content: center;
 }
 
-.padding-wrapper {
-  padding: 0px 40px;
-}
-
 .about {
   margin-top: 10px;
   width: 100%;
@@ -63,7 +63,7 @@ p {
   grid-gap: 20px;
 }
 
-.video {
+.pics {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -92,16 +92,16 @@ p {
   margin-top: 80px;
 }
 
-.cards {
+.feat-list {
   width: 100%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 40px;
 }
 
-.cards-col {
+.feat-col {
   padding: 0px;
   margin-bottom: 60px;
 }
