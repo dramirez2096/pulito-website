@@ -107,7 +107,9 @@ p {
 }
 
 .social {
+  color: #2EC19E;
   font-size: 28px;
+  margin: 30px 0px;
 }
 
 .social i {
