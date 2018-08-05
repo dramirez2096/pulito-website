@@ -1,5 +1,5 @@
 .margin-btwn {
-  margin-bottom: 50px;
+  margin: 50px;
 }
 
 body {
@@ -104,6 +104,14 @@ p {
 .feat-col {
   padding: 0px;
   margin-bottom: 60px;
+}
+
+.team {
+  padding: 40px 0px 0px 0px;
+}
+
+.team p {
+  margin-bottom: 40px;
 }
 
 .social {
