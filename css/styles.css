@@ -1,5 +1,5 @@
 .margin-btwn {
-  margin: 50px;
+  margin: 50px 0px;
 }
 
 body {
@@ -40,8 +40,6 @@ p {
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 95%);
-          clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 95%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -51,6 +49,13 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
+}
+
+.forest {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
 .about {
@@ -129,7 +134,7 @@ p {
 }
 
 @media only screen and (max-width: 450px) {
-  .header img {
+  .logo {
     width: 300px;
   }
 }
