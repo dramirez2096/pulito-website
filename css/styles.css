@@ -1,5 +1,5 @@
 .margin-btwn {
-  margin-bottom: 50px;
+  margin: 50px;
 }
 
 body {
@@ -106,8 +106,18 @@ p {
   margin-bottom: 60px;
 }
 
+.team {
+  padding: 40px 0px 0px 0px;
+}
+
+.team p {
+  margin-bottom: 40px;
+}
+
 .social {
+  color: #2EC19E;
   font-size: 28px;
+  margin: 30px 0px;
 }
 
 .social i {
