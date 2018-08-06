@@ -135,5 +135,8 @@ p {
   .logo {
     width: 300px;
   }
+  p {
+    font-weight: 500;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
