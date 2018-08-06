@@ -37,8 +37,9 @@ p {
   width: 100%;
   background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(46, 194, 137, 0.8)), to(rgba(46, 194, 159, 0.8))), url(../img/header-bg.jpg);
   background-image: linear-gradient(to right bottom, rgba(46, 194, 137, 0.8), rgba(46, 194, 159, 0.8)), url(../img/header-bg.jpg);
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center center;
+  background-attachment: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -88,6 +89,7 @@ p {
   background-image: linear-gradient(to right bottom, rgba(46, 194, 137, 0.8), rgba(46, 194, 159, 0.8)), url(../img/header-bg.jpg);
   background-size: cover;
   background-position: center center;
+  background-attachment: fixed;
   color: #fff;
 }
 
@@ -137,6 +139,15 @@ p {
   }
   p {
     font-weight: 500;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .header {
+    background-size: auto 100%;
+  }
+  .features {
+    background-size: auto 100%;
   }
 }
 /*# sourceMappingURL=styles.css.map */

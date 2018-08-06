@@ -42,9 +42,10 @@ p{
         hsla(157, 62%, 47%, 0.8),
         hsla(166, 62%, 47%, 0.8))
         ,url(../img/header-bg.jpg);
-    background-size: cover;
+    // background-size: cover;
+    background-size: 100% 100%;
     background-position: center center;
-    // background-attachment: fixed;
+    background-attachment: fixed;
     // clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 95%);
     display: flex;
     align-items: center;
@@ -88,7 +89,7 @@ p{
         ,url(../img/header-bg.jpg);
     background-size: cover;
     background-position: center center;
-    // background-attachment: fixed;
+    background-attachment: fixed;
     color: #fff;
 
     h2{
@@ -139,5 +140,15 @@ p{
     }
     p{
         font-weight: 500;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .header{
+        background-size: auto 100%;
+    }
+
+    .features{
+        background-size: auto 100%;
     }
 }
