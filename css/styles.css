@@ -167,9 +167,6 @@ p {
   .logo {
     width: 300px;
   }
-  p {
-    font-weight: 500;
-  }
   .padding-wrapper {
     padding: 0px 25px;
   }
@@ -184,6 +181,9 @@ p {
   }
   .features {
     background-attachment: scroll;
+  }
+  p {
+    font-weight: 500;
   }
 }
 /*# sourceMappingURL=styles.css.map */
