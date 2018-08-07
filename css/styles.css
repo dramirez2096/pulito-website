@@ -137,8 +137,16 @@ p {
   margin-bottom: 40px;
 }
 
+.video {
+  margin-bottom: 60px;
+}
+
+.footer {
+  background-color: #2EC19E;
+}
+
 .social {
-  color: #2EC19E;
+  color: #fff;
   font-size: 28px;
   margin: 30px 0px;
 }
@@ -149,6 +157,10 @@ p {
 
 .social a {
   color: inherit;
+}
+
+.social p {
+  margin: 10px 0px 0px 0px;
 }
 
 @media only screen and (max-width: 450px) {

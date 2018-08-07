@@ -129,9 +129,16 @@ p{
         margin-bottom: 40px;
     }
 }
+.video{
+    margin-bottom: 60px;
+}
+
+.footer{
+    background-color: $pulito-green;
+}
 
 .social{
-    color: $pulito-green;
+    color: #fff;
     font-size: 28px;
     margin: 30px 0px;
 
@@ -140,6 +147,9 @@ p{
     }
     a{
         color: inherit;
+    }
+    p{
+        margin: 10px 0px 0px 0px;
     }
 }
 
