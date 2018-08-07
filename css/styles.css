@@ -163,18 +163,6 @@ p {
   margin: 10px 0px 0px 0px;
 }
 
-@media only screen and (max-width: 450px) {
-  .logo {
-    width: 300px;
-  }
-  .padding-wrapper {
-    padding: 0px 25px;
-  }
-  .video {
-    height: 300px;
-  }
-}
-
 @media only screen and (max-width: 1024px) {
   .header {
     background-attachment: scroll;
@@ -184,6 +172,18 @@ p {
   }
   p {
     font-weight: 500;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .logo {
+    width: 300px;
+  }
+  .padding-wrapper {
+    padding: 0px 25px;
+  }
+  .video {
+    height: 300px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
